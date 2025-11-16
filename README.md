@@ -36,6 +36,7 @@ Implements arithmetic primitives such as adders and ALU components.
 * ALU implementation
 
 **Circuit Preview:**
+* ALU
 ![ALU Circuit](Pictures/ALU.png)
 
 ---
@@ -51,6 +52,7 @@ Implements all memory-related hardware, including the RAM modules.
 * Program Counter
 
 **Circuit Preview:**
+* RAM
 ![RAM Circuit](Pictures/8RAM.png)
 
 ---
@@ -76,7 +78,9 @@ Builds the complete Hack CPU and integrates it with memory to create a full comp
 * Complete computer (CPU + Memory + ROM)
 
 **Circuit Preview:**
+* CPU
 ![CPU Circuit](Pictures/CPU.png)
+* Computer
 ![Computer Architecture Circuit](Pictures/Computer.png)
 
 ---
@@ -88,14 +92,6 @@ A full assembler written in Python that translates Hack assembly (`.asm`) into a
 **Contents:**
 
 * Assembler
-
----
-
-## 🚀 Future Work
-
-* Complete Part 2 (VM translator, compiler, OS)
-* Add automated testing for HDL chips
-* Provide interactive demos
 
 ---
 
