@@ -94,7 +94,7 @@ A full assembler written in Python that translates Hack assembly (`.asm`) into a
 * Assembler
 - To assemble you can run this command over the terminal, you have to first have an assembly file, pass the file name as the first argument and the second argument must be the result file name, which will  contain the hex machine code.
 
-<pre> ```python HackAssembler.py symbols.asm result.bin``` </pre>
+<pre> python HackAssembler.py symbols.asm result.bin </pre>
 
 ---
 
