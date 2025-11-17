@@ -66,7 +66,7 @@ Implements the Hack machine language execution model.
 Two assembly programs:
 * Fill.asm: a program that probs the keyboard and when a key is pressed it fills the screen.
 * Multi.asm: performs multiplication between two values stored in memory addresses R1 and R2.
-
+* Note that those files may not work very well on my simulated computer as i have limited it to a display of 32 x 32, this code is originally written for the official nand2tetris computer simulator.
 ## 🖥️ Module 5 — Computer Architecture
 
 Builds the complete Hack CPU and integrates it with memory to create a full 16-bit computer, with a 32 x 32 screen and a keyboard attached.
@@ -92,6 +92,8 @@ A full assembler written in Python that translates Hack assembly (`.asm`) into a
 **Contents:**
 
 * Assembler
+To assemble you can run this command over the terminal, you have to first have an assembly file pass the file name as the first argument and the second argument must be the result file name, which will  contain the hex machine code.
+`python HackAssembler.py symbols.asm result.bin`
 
 ---
 
